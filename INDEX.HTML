@@ -1,1 +1,39 @@
-# ALARM-CLOCK
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Clock</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<img
+				src="https://imgs.search.brave.com/keZ2PqRQ2d0P48j1xQ_uD-HmWCZbpCkMwjPQSDlYYV8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNhL2ltYWdlcy9M/YXJnZS8yODEvODY2/LzYwMDAxOTgyODE4/NjYuanBnP29kbkhl/aWdodD01ODAmb2Ru/V2lkdGg9NTgwJm9k/bkJnPUZGRkZGRg"
+				alt=""
+			/>
+			<div id="clock"></div>
+			<input
+				onchange="setAlarmTime(this.value)"
+				type="datetime-local"
+				name=""
+				id=""
+			/>
+			<br />
+			<div id="controls">
+				<button onclick="setAlarm()" class="btn set">SET</button>
+				&nbsp;
+				<button onclick="clearAlarm()" class="btn clear">
+					CLEAR
+				</button>
+			</div>
+			<h1>Alarm</h1>
+			<h2 id="setTime"></h2>
+		</div>
+
+		<script src="script.js" async defer></script>
+	</body>
+</html>
