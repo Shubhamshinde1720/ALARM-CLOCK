@@ -1,0 +1,45 @@
+body {
+	background-color: white;
+}
+.container {
+	margin-top: 220px;
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+}
+.set {
+	background-color: rgb(103, 226, 240);
+}
+.clear {
+	background-color: rgb(223, 75, 210);
+}
+
+.btn {
+	width: 70px;
+	border: 1px solid black;
+	color: bisque;
+	border-radius: 6px;
+	font-size: revert;
+	height: 28px;
+	font-family: inherit;
+}
+
+#clock {
+	height: 64px;
+	width: 7em;
+	border: 2px solid rgb(61, 22, 22);
+	border-radius: 12px;
+	text-align: center;
+	font-size: -webkit-xxx-large;
+	font-family: monospace;
+	color: white;
+	background-color: #030303;
+	margin: 10px auto;
+	padding-top: 15px;
+}
+
+#setTime {
+	font-size: xx-large;
+	color: rgb(255, 241, 241);
+	font-family: system-ui;
+}
