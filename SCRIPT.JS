@@ -1,8 +1,6 @@
 const time = document.querySelector('#clock');
 const setTime = document.querySelector('#setTime');
-const audio = new Audio(
-	'https://hindi3.djpunjab.app/load/ckrpyLsf9CWiFFuwB6WnBA==/Antarman%20Mein%20Jyoti%20Jaga%20Lo.mp3',
-);
+const audio = new Audio('https://mobcup.net/ringtone/krishna-flute-k2zu2wm8?utm_source=share&utm_medium=web&utm_name=list',);
 audio.loop = true;
 let alarmTime = null;
 
